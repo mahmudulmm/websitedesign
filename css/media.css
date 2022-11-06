@@ -1,0 +1,12 @@
+@media(max-width:575px) {
+    .banner-text {
+        padding-top: 130px;
+        padding-bottom: 130px;
+
+
+    }
+
+    .banner-text h2 {
+        font-size: 28px;
+    }
+}

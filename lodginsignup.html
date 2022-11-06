@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>boostrap</title>
+    
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+  <body>
+    <section class=" py-5  ">
+      <div class="container py-5  ">
+        <div class="row py-5">
+          <div class="col-lg-6 py-5  m-auto">
+
+
+          <div class="card ">
+  <div class="card-header col-lg-12  m-auto text-center py-3 text-dark ">
+          <h2>Log in</h2>
+        </div>
+
+<div class=" card-body bg-cecondary col-lg-11 m-auto py-2">
+  <form action="home.html" method="post">
+
+      <div class="row">
+        <div class="col py-4">
+          <input type="text" name="email" class="form-control" placeholder="enter your email">
+        </div>
+      </div>
+
+
+          <div class="row  py-1 ">
+            <div class="col  ">
+              <input type="password" name="password" id="myInput" class="form-control" placeholder="password">
+              <button type="button"  class="btn-success" style=" position:absolute ; top:0; right:14px; bottom: 0 " onclick=" myFunction()"><i class="fa fa-key"></i></button>
+
+            </div>
+            </div>
+           
+      <div class="form-group py-5 text-center ">
+<button type="submit" class="btn btn-dark "> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Log in   &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; </button>
+
+      </div>
+
+  </form>
+
+</div>
+</div>
+</div>
+      </div>
+    </section>
+  <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script>
+  function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+    }
+  }
+  </script>
+  </body>
+</html>
